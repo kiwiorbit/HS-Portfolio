@@ -2,12 +2,13 @@ import React, { forwardRef, useEffect } from 'react';
 import { WebProject } from './WebModal';
 
 const projectsData: WebProject[] = [
+    { title: 'Whanau Talk', image: '/images/wt-fullpage.webp', link: 'https://kiwiorbit.github.io/whanautalk-r4/', thumbnail: '/images/wt-cover.webp', description: '(Collaborative Project) Revamped to High Quality landing page, showcases educational research and call to action for participation.' },
     { title: 'New Zealand Board of Imams', image: '/images/nzbi-fullpage.webp', link: 'https://dev.nzbi.nz/', thumbnail: '/images/nzbi.webp', description: 'A website for the NZBI providing guidance, moonsighting information to the Muslim community.' },
-    { title: 'Educational Institute Website', image: 'https://picsum.photos/id/2/800/1600', link: 'https://khuddam.co.nz/', thumbnail: 'https://picsum.photos/id/22/600/338', description: 'An educational platform that provides linguistic tools, resources, and community building to help users connect with the Quran.' },
-    { title: 'Crypto RSI Dashboard', image: 'https://picsum.photos/id/3/800/1600', link: 'https://rsipulse.vercel.app/', thumbnail: 'https://picsum.photos/id/33/600/338', description: 'A real-time cryptocurrency dashboard that tracks and displays RSI (Relative Strength Index) data for the top 100 digital assets,' },
-    { title: 'E-commerce Platform', image: 'https://picsum.photos/id/4/800/1600', link: '#', thumbnail: 'https://picsum.photos/id/44/600/338', description: 'A full-featured online store with a custom CMS and payment integration.' },
-    { title: 'Portfolio Template', image: 'https://picsum.photos/id/5/800/1600', link: '#', thumbnail: 'https://picsum.photos/id/54/600/338', description: 'A creative and modern portfolio template for designers and developers.' },
-    { title: 'SaaS Landing Page', image: 'https://picsum.photos/id/6/800/1600', link: '#', thumbnail: 'https://picsum.photos/id/64/600/338', description: 'A high-converting landing page for a new software-as-a-service product.' },
+    { title: 'Khuddam NZ', image: '/images/khuddam-fullpage.webp', link: 'https://khuddam.co.nz/', thumbnail: '/images/khuddam-cover.webp', description: 'An educational institute that provides linguistic tools, resources, and community building to help users connect with the Quran and Arabic language.' },
+    { title: 'Crypto RSI Pulse', image: '/images/rsipulse-fullpage.webp', link: 'https://rsipulse.vercel.app/', thumbnail: '/images/rsipulse-cover.webp', description: 'A real-time cryptocurrency sorter that tracks and displays Relative Strength Index data for the top 100 digital assets,' },
+    { title: 'Al Haram Karpets', image: '/images/ahk-full.webp', link: '#', thumbnail: '/images/ahk-cover.webp', description: '(Under Development) An Indonesian Business Profile showcase, customised online store with a custom CMS and payment integration coming soon.' },
+    { title: 'Auto Trading Bot', image: '/images/bot-full.webp', link: '#', thumbnail: '/images/bot-cover.webp', description: '(Under Development) Collaborative Project with group of Web3 Developers to build trading bot using AI Agents and Machine Learning.' },
+    
 ];
 
 interface WebProps {

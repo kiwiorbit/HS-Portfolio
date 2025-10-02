@@ -115,7 +115,7 @@ const Contact = forwardRef<HTMLElement>((props, ref) => {
                                 <div className="bg-orbit-accent/10 p-3 rounded-lg mr-4 feature-icon-container"><i className="fas fa-phone-alt text-orbit-accent"></i></div>
                                 <div>
                                     <h5 className="font-poppins font-bold mb-1">Phone</h5>
-                                    <a href="tel:+6401234567" className="text-gray-400 hover:text-orbit-accent transition-colors">+64 01 234 567</a>
+                                    <a href="tel:+6401234567" className="text-gray-400 hover:text-orbit-accent transition-colors">+64 22 325 9094</a>
                                 </div>
                             </div>
                             <div className="flex items-center">

@@ -44,7 +44,7 @@ const AppModal: React.FC<AppModalProps> = ({ app, onClose }) => {
 
     // e.g., 2 seconds per image
 
-    const animationDuration = app.images.length * 1.5;
+    const animationDuration = app.images.length * 2;
     
     return (
         <div 

@@ -2,21 +2,22 @@ import React, { forwardRef, useEffect } from 'react';
 import { AppData } from './AppModal';
 
 const appsData: AppData[] = [
+    { title: 'Speechive', link: 'https://speechive-v7.vercel.app/', images: ['/images/sh-1.webp','/images/sh-2.webp','/images/sh-3.webp','/images/sh-4.webp','/images/sh-5.webp','/images/sh-6.webp','/images/sh-7.webp','/images/sh-8.webp','/images/sh-9.webp','/images/sh-10.webp','/images/sh-11.webp','/images/sh-12.webp','/images/sh-13.webp']},
     { title: 'Rebloom', link: 'https://rebloom.vercel.app/', images: ['/images/rebloom-1.webp', '/images/rebloom-2.webp', '/images/rebloom-3.webp', '/images/rebloom-4.webp']},
     { title: 'Crypto RSI Scanner', link: 'https://rsiscanv8.vercel.app/', images: ['/images/crysi-1.webp','/images/crysi-2.webp','/images/crysi-3.webp','/images/crysi-4.webp','/images/crysi-5.webp','/images/crysi-6.webp','/images/crysi-7.webp','/images/crysi-8.webp','/images/crysi-9.webp','/images/crysi-10.webp','/images/crysi-11.webp','/images/crysi-12.webp','/images/crysi-13.webp','/images/crysi-14.webp','/images/crysi-15.webp','/images/crysi-16.webp','/images/crysi-17.webp','/images/crysi-18.webp']},
     { title: 'Mood Garden', link: 'https://moodgarden-v5.vercel.app/', images: ['/images/mg-1.webp','/images/mg-2.webp','/images/mg-3.webp','/images/mg-4.webp','/images/mg-5.webp','/images/mg-6.webp','/images/mg-7.webp']},
-    { title: 'ConnectSphere', link: '#', images: ['https://picsum.photos/id/10/400/800', 'https://picsum.photos/id/12/400/800', 'https://picsum.photos/id/13/400/800', 'https://picsum.photos/id/14/400/800']},
-    { title: 'FitFlow', link: '#', images: ['https://picsum.photos/id/1060/400/800', 'https://picsum.photos/id/1062/400/800', 'https://picsum.photos/id/1063/400/800', 'https://picsum.photos/id/1064/400/800']},
-    { title: 'MindGarden', link: '#', images: ['https://picsum.photos/id/15/400/800', 'https://picsum.photos/id/16/400/800', 'https://picsum.photos/id/17/400/800', 'https://picsum.photos/id/18/400/800']},
+    { title: 'Kiwi Qaedah', link: 'https://kiwiqaedah-v2.vercel.app/', images: ['/images/kq-1.webp','/images/kq-2.webp','/images/kq-3.webp','/images/kq-4.webp','/images/kq-5.webp','/images/kq-6.webp','/images/kq-7.webp']},
+    { title: 'FitFlow', link: '#', images: ['/images/fitflow.webp','/images/fitflow.webp']},
+    
 ];
 
 const appDescriptions: { [key: string]: string } = {
     'Rebloom': 'Rebloom is a Feature-rich, responsive React SPA, designed as a Gentle 30-day wellness guide for postpartum recovery for Women folks, ',
-    'Crypto RSI Scanner': 'An Advanced Market Scanner, Monitors using multiple indicators, Features powerful alert bot, charting modal, drawing tools, Volume Profiling to catch every opportunity.',
+    'Crypto RSI Scanner': 'An Advanced Market Scanner, Monitors using multiple indicators, Features powerful alerts system, charting modal, drawing tools, Volume Profiling to catch every opportunity.',
     'Mood Garden': 'An interactive wellness app that gamifies mood tracking, letting users grow a beautiful virtual garden through engaging mini-games.',
-    'ConnectSphere': 'A decentralized social platform that puts you in control.',
-    'FitFlow': 'AI-powered personal fitness coach and workout planner.',
-    'MindGarden': 'A calming space for meditation and mindfulness.',
+    'Speechive': '(Under Development) Tailored for parents and caregivers to support their children with hearing loss or speech delays, packed with interactive strategies, and progress tracking.',
+    'FitFlow': 'Coming Soon - AI-powered personal fitness coach and workout planner.',
+    'Kiwi Qaedah': 'Interactive Learning Arabic Alphabet and Quiz Gamified app for young minds.',
 };
 
 interface AppsProps {
