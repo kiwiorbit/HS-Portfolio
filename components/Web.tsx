@@ -7,7 +7,7 @@ const projectsData: WebProject[] = [
     { title: 'Khuddam NZ', image: '/images/khuddam-fullpage.webp', link: 'https://khuddam.co.nz/', thumbnail: '/images/khuddam-cover.webp', description: 'An educational institute that provides linguistic tools, resources, and community building to help users connect with the Quran and Arabic language.' },
     { title: 'Crypto RSI Pulse', image: '/images/rsipulse-fullpage.webp', link: 'https://rsipulse.vercel.app/', thumbnail: '/images/rsipulse-cover.webp', description: 'A real-time cryptocurrency sorter that tracks and displays Relative Strength Index data for the top 100 digital assets,' },
     { title: 'Al Haram Karpets', image: '/images/ahk-full.webp', link: '#', thumbnail: '/images/ahk-cover.webp', description: '(Under Development) An Indonesian Business Profile showcase, customised online store with a custom CMS and payment integration coming soon.' },
-    { title: 'Auto Trading Bot', image: '/images/bot-full.webp', link: '#', thumbnail: '/images/bot-cover.webp', description: '(Under Development) Collaborative Project with group of Web3 Developers to build trading bot using AI Agents and Machine Learning.' },
+    { title: 'Algo Trading Bot', image: '/images/bot-full.webp', link: '#', thumbnail: '/images/bot-cover.webp', description: '(Under Development) Collaborative Project with group of Web3 Developers to build trading bot using AI Agents and Machine Learning.' },
     
 ];
 
