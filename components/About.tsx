@@ -17,7 +17,7 @@ const About = forwardRef<HTMLElement>((props, ref) => {
                             <h2 className="text-kiwi text-lg font-medium mb-2">ABOUT ME</h2>
                             <h3 className="text-3xl md:text-4xl font-poppins font-bold mb-6">Turning Ideas Into <span className="text-orbit-accent">Digital Reality</span></h3>
                         </div>
-                        <p className="text-lg text-gray-300 mb-6">Hey there! I'm a passionate web developer and digital creator from Auckland, New Zealand, with over 5 years of experience in e-commerce management and web development. I specialise in creating modern, responsive websites that blend creativity with functionality, from landing pages to comprehensive business platforms.</p>
+                        <p className="text-lg text-gray-300 mb-6">Hey there! I'm Hussain Shah, passionate web developer and digital creator from Auckland, New Zealand, with over 5 years of experience in e-commerce management and web development. I specialise in creating modern, responsive websites that blend creativity with functionality, from landing pages to comprehensive business platforms.</p>
                         <p className="text-lg text-gray-300 mb-6">I'm all about clean code, intuitive user experiences, and leveraging modern technologies like AI tools and AI Agents to enhance productivity and implementing best practices. Whether it's building responsive web applications or designing compelling visuals I bring a unique blend of technical expertise and creative vision to every project.</p>
                         <div className="flex flex-wrap gap-4 mt-6">
                             <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="GitHub">
